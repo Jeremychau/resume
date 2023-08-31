@@ -1,0 +1,15 @@
+{
+  "short_name": "Jeremy Resume",
+  "name": "Jeremy Chau Resume Web Page",
+  "icons": [
+    {
+        "src": "/icons8-favicon-3d-fluency-96.png",
+        "sizes": "96x96",
+        "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
