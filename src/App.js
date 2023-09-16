@@ -19,7 +19,6 @@ const App = () => {
       <About data={resumeJsonData.main} />
       <Resume data={resumeJsonData.resume} />
       <Portfolio data={resumeJsonData.portfolio} />
-      {/* <Testimonials data={resumeJsonData.testimonials} /> */}
       <Footer data={resumeJsonData.main} />
     </div>
   );
