@@ -1,25 +1,32 @@
 import React from "react";
 
 const Resume = ({ data }) => {
+    let educationElements;
+    let workElements;
+    let skillsElements;
+    let skillMessage;
+
   if (data) {
     let { skillmessage, education, work, skills } = data
 
-    let educationElements = education.map(function (education) {
+    skillMessage = skillmessage
+
+    educationElements = education.map( (education, index) => {
       return (
-        <div key={education.school}>
+        <div key={index}>
           <h3>{education.school}</h3>
           <p className="info">
             {education.degree} <span>&bull;</span>
-            <em className="date">{education.graduated}</em>
+            <p className="date">{education.graduated}</p>
           </p>
-          <p>{education.description}</p>
+          <p>- {education.description}</p>
         </div>
       );
     });
 
-    let workElements = work.map(function (work) {
+    workElements = work.map( (work, index) => {
       return (
-        <div key={work.company}>
+        <div key={index}>
           <h3>{work.company}</h3>
           <p className="info">
             {work.title}
@@ -30,10 +37,10 @@ const Resume = ({ data }) => {
       );
     });
 
-    let skillsElements = skills.map(function (skills) {
+    skillsElements = skills.map( (skills, index) => {
       let className = "bar-expand " + skills.name.toLowerCase();
       return (
-        <li key={skills.name}>
+        <li key={index}>
           <span style={{ width: skills.level }} className={className}></span>
           <em>{skills.name}</em>
         </li>
@@ -75,7 +82,7 @@ const Resume = ({ data }) => {
         </div>
 
         <div className="nine columns main-col">
-          <p>{skillmessage}</p>
+          <p>{skillMessage}</p>
 
           <div className="bars">
             <ul className="skills">{skillsElements}</ul>

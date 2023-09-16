@@ -1,27 +1,17 @@
 {
   "main": {
-    "name": "Jeremy Chau",
-    "occupation": "CEO of PAPA",
+    "name": "Chau Ka Leung (Jeremy)",
+    "occupation": "Senior Analyst Programmer (Web)",
     "description": "I eat, sleep and breathe React",
+    "city": "Hong Kong",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
+    "bio": "Hello, i am an experienced web developer with a strong focus on JavaScript and MySQL. Over the course of six years, I have honed my skills in full-stack website development and content management systems (CMS). My expertise spans both front-end and back-end development, enabling me to create user-friendly interfaces and optimize databases for seamless performance. I take great pride in writing clean and efficient code, ensuring visually appealing and flawlessly functioning websites. Collaboration and effective communication are central to my work philosophy, as I actively engage with clients to understand their unique requirements and translate their vision into fully functional websites that exceed expectations.",
     "email": "jeremychau0605@hotmail.com",
-    "phone": "+",
-    "address": {
-      "street": "123 Dev Lane",
-      "city": "London",
-      "state": "Devosphere",
-      "zip": "W3B D3V"
-    },
+    "phone": "+852 5161 5992",
+    "address": "F Flat, 18/F, Block 8 Bauhinia Garden 11 Tong Chun Street, Tseung Kwan O, NT, HK",
     "website": "https://www.papareact.com/course",
     "resumedownload": "http://papareact.com",
     "social": [
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
-        "className": "fa fa-instagram"
-      },
       {
         "name": "github",
         "url": "https://github.com/Jeremychau",
@@ -33,86 +23,68 @@
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
-        "description": "Graduated with First Class Honours"
+        "school": "IVE (Lee Wai Lee)",
+        "degree": "Higher Diploma",
+        "graduated": "June 2016",
+        "description": "Cloud and Data Center Administration"
       },
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
-        "description": "Graduated with First Class Honours"
+        "school": "IVE (Lee Wai Lee)",
+        "degree": "Foundation Diploma (Level 3)",
+        "graduated": "Aug 2014",
+        "description": "Computing"
+      },
+      {
+        "school": "HKTA The Yuen Yuen Institute No.3 Secondary School",
+        "degree": "",
+        "graduated": "2013",
+        "description": "S1-S6 HKDSE Result"
       }
     ],
     "work": [
       {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "company": "ET NET LIMITED",
+        "title": "Senior Analyst Programmer (Web)",
+        "years": "Aug 2018 - Present",
+        "description": "Maintenance forum, blog & article by open source CMS\b\nDevelop, maintain, bug fixing and implement for web-based projects, internal CMS, website and mobile web\b\nCoordination, scheduling & user requirement study\b\nDaily administrative work (Advertise, Report & EDM)"
       },
       {
         "company": "PAPA",
         "title": "Founder and CEO",
         "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "description": "Develop / Create EDM by HTML5 / CSS / JavaScript / EDM designer\b\nDesign fair banner and images\b\nMaintenance fair website services by CMS\b\nMonitor, report & testing the operation of the new CMS"
       }
     ],
     "skills": [
       {
-        "name": "ReactJs",
+        "name": "JavaScript (React / Vue / NodeJs)",
         "level": "100%"
       },
       {
-        "name": "Python",
+        "name": "PHP",
+        "level": "100%"
+      },
+      {
+        "name": "Mysql",
         "level": "85%"
       },
       {
-        "name": "Git",
+        "name": "MongoDB",
+        "level": "85%"
+      },
+      {
+        "name": "WordPress / Shopify",
         "level": "70%"
-      },
-      {
-        "name": "JavaScript",
-        "level": "99%"
-      },
-      {
-        "name": "Web Development",
-        "level": "95%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
-        "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
-      },
-      {
-        "title": "Gmail Clone (React JS)",
-        "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
-      },
-      {
-        "title": "LinkedIn Clone (React JS)",
-        "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-        "user": "Jorge Fouto"
-      },
-      {
-        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
-        "user": "Adam Curtis"
+        "title": "Sanfungsteel",
+        "category": "Freelance Job",
+        "url": "https://www.sanfungsteel.com.hk/",
+        "image": "sanfunlogo.png"
       }
     ]
   }
