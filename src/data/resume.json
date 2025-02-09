@@ -1,0 +1,127 @@
+{
+  "personalInfo": {
+    "name": "Your Name",
+    "title": "Full Stack Developer",
+    "bio": "Hi, I'm [Your Name], a passionate Full Stack Developer with expertise in building modern web applications. I specialize in React, Next.js, and TypeScript, with a strong focus on creating performant and user-friendly experiences.",
+    "additionalInfo": "With [X] years of experience in the industry, I've worked on various projects ranging from e-commerce platforms to enterprise-level applications. I'm particularly interested in [Your Interests/Specializations].",
+    "location": "Your Location",
+    "email": "your.email@example.com",
+    "links": {
+      "github": "https://github.com/yourusername",
+      "linkedin": "https://linkedin.com/in/yourusername"
+    },
+    "profileImage": "/images/profile.jpg"
+  },
+  "skills": [
+    {
+      "name": "Frontend",
+      "skills": [
+        "React.js",
+        "Next.js",
+        "Vue.js",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "name": "Backend",
+      "skills": [
+        "Node.js",
+        "Express",
+        "Python",
+        "Django",
+        "RESTful APIs",
+        "GraphQL"
+      ]
+    },
+    {
+      "name": "Database",
+      "skills": [
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "Redis"
+      ]
+    },
+    {
+      "name": "DevOps & Tools",
+      "skills": [
+        "Git",
+        "Docker",
+        "AWS",
+        "CI/CD",
+        "Jest",
+        "Webpack"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Full Stack Developer",
+      "company": "Tech Company Name",
+      "period": "2020 - Present",
+      "location": "San Francisco, CA",
+      "description": [
+        "Led development of microservices architecture using Next.js and Node.js",
+        "Implemented CI/CD pipelines reducing deployment time by 40%",
+        "Mentored junior developers and conducted code reviews"
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Another Company",
+      "period": "2018 - 2020",
+      "location": "New York, NY",
+      "description": [
+        "Developed and maintained multiple React-based web applications",
+        "Optimized database queries improving application performance by 30%",
+        "Collaborated with UX team to implement responsive designs"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "school": "University Name",
+      "period": "2016 - 2018",
+      "location": "City, Country",
+      "description": [
+        "Specialized in Artificial Intelligence and Machine Learning",
+        "Graduated with Distinction",
+        "Research focus on Natural Language Processing"
+      ]
+    },
+    {
+      "degree": "Bachelor of Science in Software Engineering",
+      "school": "University Name",
+      "period": "2012 - 2016",
+      "location": "City, Country",
+      "description": [
+        "First Class Honours",
+        "President of Computer Science Society",
+        "Completed internship at Tech Company"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-commerce Platform",
+      "description": "A full-stack e-commerce platform built with Next.js, featuring user authentication, product management, and payment integration.",
+      "technologies": ["Next.js", "TypeScript", "Stripe", "TailwindCSS", "PostgreSQL"],
+      "image": "/images/project1.jpg",
+      "liveUrl": "https://project1.com",
+      "githubUrl": "https://github.com/yourusername/project1"
+    },
+    {
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates and team collaboration features.",
+      "technologies": ["React", "Node.js", "Socket.io", "MongoDB"],
+      "image": "/images/project2.jpg",
+      "liveUrl": "https://project2.com",
+      "githubUrl": "https://github.com/yourusername/project2"
+    }
+  ]
+}
